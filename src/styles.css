@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.d-shadow {
+    filter: drop-shadow(0 0 1.5rem black);
+}
+
+.d-shadow-st {
+    box-shadow: 0px 6px 22px 0px rgba(0, 0, 0, 0.08), 4px 57px 34px 0px rgba(0, 0, 0, 0.05), 7px 100px 40px 0px rgba(0, 0, 0, 0.01), 11px 157px 44px 0px rgba(0, 0, 0, 0.00);
+}
+
+.d-shadow-card {
+    box-shadow: 0px 23px 35px 0px rgba(166, 171, 189, 0.16);
+}

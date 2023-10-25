@@ -1,0 +1,36 @@
+#p_b > img:nth-child(even) {
+    animation: p_b_anim 1s ease-in-out
+}
+#p_b > img:nth-child(odd) {
+    animation: p_b_anim2 1s ease-in-out
+}
+
+.fade-in {animation: fade-in_bottomToTop 1s ease-in-out}
+.ae-duration-250 {animation-duration: 1.25s;}
+
+@keyframes p_b_anim {
+    from {
+        opacity: 0;
+        transform: translate(-5%, 5%);
+    }
+}
+
+@keyframes p_b_anim2 {
+    from {
+        opacity: 0;
+        transform: translate(-5%, -5%);
+    }
+}
+
+@keyframes fade-in_bottomToTop {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to {opacity: 1;}
+}
+
+.ftr {
+    background-image: url('../../assets/ftr_bg.png');
+    background-size: cover;
+}
